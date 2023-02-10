@@ -1,0 +1,165 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  padding-top: 0.2em;
+  height: 100%;
+  width: 100%;
+  font-family: "Optima", sans-serif;
+  background-color: #f5f5f5;
+}
+body{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.nav , .body, .fotter{
+  border:1px #cfc9c9 solid;
+  display:flex;  
+  flex-wrap:wrap;
+  justify-content:center;
+
+}
+.fotter{
+  padding: 0.6em;
+  border: 0px;
+  border-top: 1px #cfc9c9 solid;
+}
+.nav{
+  border-top: 3px #a303ae solid;
+  border-left: 0px;
+  border-right: 0px;
+  justify-content:space-around;
+  padding-right: 20%;
+  padding-left: 20%;
+  font-size: 1.4em;
+  font-family: "Optima", sans-serif;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: #a303ae;
+  text-align: center;
+
+}
+a:visited{
+  color:#000000;
+  text-decoration: none;
+}
+a:link {
+  color:#000000;
+  text-decoration: none;
+}
+a:active{
+  color:#000000;
+  text-decoration: none;
+}
+a:hover{
+  color:#a303ae;
+  text-decoration: none;
+}
+
+
+.body{
+  flex-direction: row;
+  height: 100%;
+  margin: 2em;
+  border: 0px;
+}
+.left{
+  flex:1;
+  text-align:center;
+  border-right:1px #cfc9c9 solid;
+  
+  
+}
+.right{
+  flex:2;
+  text-align:left;
+  
+  font-size: 1.5em;  
+  padding-top: 2em;
+  padding-left: 2em;  
+}
+
+table{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:left;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 3px darkgray;
+}
+figure{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding-top: 4em;
+}
+progress{
+  height: 1.5em;
+  width: 20em;
+}
+h2{
+  font-size: 1.5em;
+  font-family: 'Times New Roman', Times, serif;
+}
+.left h1,a,p {
+  margin: 0;
+}
+
+#job{
+  font-size: 1.6em;
+}
+
+#email{
+  font-size: 0.9em;
+  color: #a303ae;
+}
+#link{
+  color: #a303ae;
+}
+
+.table_format, tbody{
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 1.5em; 
+}
+th{
+  width: 76%;
+}
+.right p{
+  color: #00000088;
+}
+
+li {
+  padding: 0.3em;
+}
+ul{
+  list-style-type: circle;
+}
+#text{
+  color: #000000ff;
+}
+@media screen and (max-width: 999px) {
+  .body {
+    flex-direction: column;
+    height: auto;
+  }
+  .left {
+    border-right: 0px;
+  }
+  .right {
+    border-top: 1px #cfc9c9 solid;
+  }
+  .nav {
+    flex-direction: column;
+    padding-right: 0px;
+    padding: 0px;
+  }
+} 
