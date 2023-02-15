@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hider {
+  display: none;
+}
+.dark-mode {
+  background-color: rgb(52, 49, 49);
+  color: rgb(255, 255, 255);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.nav {
+  display: flex;
+  padding: 0px;
+  flex-direction: row;
+  border-top: green 5px solid;
+  border-bottom: rgb(223, 226, 227) 1px solid;
+  justify-content: flex-end;
+
+}
+.nav h1{
+  flex: 1;
+  padding-left: 240px;
+  font-size: 1.5em;
+  align-items: center;
+  text-align: center;
+}
+button {
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  font-weight: 400;
+  padding: 0em 1.7em;
+  background-color: transparent;
+
+}
+button:hover {
+  background-color: rgb(223, 226, 227);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgb(223, 226, 227);
+}
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+td{
+  border: 1px solid  rgb(208, 211, 212);
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-size: 2.3em;
+}
+
+.helpscreen{
+  padding-top: 3em;
+  border-left: 1px solid  rgb(208, 211, 212);
+  margin-left: 3em;
+  padding-left: 2.5em;
+  min-height: 60vh;
+}
+li{
+  margin-bottom: 1em;
+}
+.lose{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  background-color: red;
+  color: white;
+}
+.startover{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.hintscreen{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  background-color: rgb(187, 193, 173);
+}
+.win-screen{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  background-color: rgb(5, 229, 42);
+  color: white;
+}
